@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    border: 1px solid black;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-bmw-330i-123-1567012839.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-size: cover;
+    height: 830px;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.seperate{
+    width: 50%;
+    height: 6px;
+    background: red;
+    margin: 40px 25% 70px;
+}
+
+#form{
+    padding: 25px 30px;
+}
+
+.controlForm{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.contactForm{
+    display: block;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 12px 10% 0 10%;
+    border: 0;
+    max-width: 800px;
+    background: #111;
+    padding: 25px;
+    color: white;
+    transition: width 0.5s ease-in-out;
+}
+
+.controlForm small{
+    font-size: 18px;
+    position: relative;
+    color: red;
+    left: 10%;
+    bottom: 0;
+}
+
+
+.contactForm:focus{
+    box-shadow: 0 0 10px 4px #295078;
+    width: 100%;
+}
+
+
+#textArea{
+    resize: none;
+    padding: 40px 20px;
+}
+
+#submit{
+    color: white;
+    background-color: #809EEC;
+    float:right;
+    margin-right: 7%;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(64, 112, 236);
+}
